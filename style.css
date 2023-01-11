@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1B244A;
+    height: 385px;
+    width: 575px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.new-game{
+    width: 100%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Verdana', 'Times New Roman', Times, serif;
+    color: #EEEEEE;
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+@font-face{
+    font-family: 'dig-clk-font';
+    src: url('digital-7.monoitalic.ttf');
+}
+.score-box{
+    text-align: center;
+    height: 120px;
+    width: 155px;
+    background-color: #080001;
+    margin-bottom:26px;
+}
+.score-text{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'dig-clk-font';
+    color: #F94F6D;
+}
+.buttons-home,.buttons-guest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.scr-btn{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    font-family: 'dig-clk-font';
+    color: #9AABD8;
+    background-color: inherit;  
+    font-size: 18px;
+    font-weight: 400;
+}
+.newg-btn{
+    height: 45px;
+    width: 90px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    font-family: 'dig-clk-font';
+    color: #9AABD8;
+    background-color: inherit;  
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
